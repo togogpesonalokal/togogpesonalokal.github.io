@@ -868,6 +868,9 @@ overflow:hidden;
   html { 
       font-size: 55%;
   }
+ #hamburger-menu {
+      margin-left: 200px;
+  }
   .navbar2 .navbar2-logo img{
     width: 230px;
   }
