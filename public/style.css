@@ -789,17 +789,19 @@ margin-right: -480px;
 
   #hamburger-menu {
       display: inline-block;
+      margin-right: 60px;
+      right: 600%;
   }
 
   .navbar2 .navbar2-nav2 {
       position: absolute;
       top: 100%;
       right: -100%;
-      background-color: rgb(14, 45, 92);
+      background-color: rgba(14, 45, 92, 0.938);
       width: 20rem;
-      height: 70vh;
+      height: 50vh;
       transition: 0.3ms;
-      margin-right: 30px;
+      margin-right: 90px;
   }
 
   .navbar2 .navbar2-nav2.active {
@@ -893,6 +895,9 @@ overflow:hidden;
     width: 200px; 
     margin-left: 40px;
     margin-top: -200em;
+    }
+    #hamburger-menu{
+      margin-left: 200px;
     }
 }
 @media (max-width: 400px) {
