@@ -1325,7 +1325,7 @@
     border-right: unset !important;
   }
   
-  @media (min-width: 994px) {
+  @mefooter-pagemediadia (min-width: 994px) {
     .footer-page .container .content .links {
       margin-top: 0;
     }
@@ -6349,12 +6349,19 @@
      margin-left: 230px;
      margin-bottom: 20px;
   }
+  .footer-page{
+    height: 470px;
+  }
+  .footer-page .container{
+    height: 400px;
+  }
 }
 @media (max-width : 500px){
   .mapouter{
    margin-left: 80px;
    margin-bottom: 20px;
 }
+
 .nav-footer{
   margin-left: -10px;
 }
