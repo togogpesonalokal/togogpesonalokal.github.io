@@ -9,6 +9,12 @@
   background-image: url(backblue.png);
   background-size: cover;
 }
+.box {
+  height: auto;
+  width: 100%;
+  /* background-image: url(backblue.png); */
+  background-size: cover;
+}
 .box1 {
   height: 180px;
 }
@@ -188,8 +194,77 @@
 
 @media screen and (max-width: 576px) {
   .box {
+    width: 47rem;
+  }
+
+  .box1 p {
+    font-size: large;
+    margin-bottom: 70px;
+  }
+  .box2 {
+    width: 32rem;
+    height: 12rem;
+  }
+  .geser {
+    width: 27rem;
+    height: 10rem;
+  }
+  .box3 {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 260px;
+    height: 10rem;
+  }
+  .box3 p {
+    font-size: large;
+    line-height: 2rem;
+    margin-top: 200px;
+    letter-spacing: 1px;
+  }
+  .komen {
+    width: 440px;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 8px -3px rgba(135, 135, 135, 0.3);
+  }
+  .isi {
+    padding: 17px;
+  }
+  .isi img {
+    width: 104px;
+    height: 131px;
+  }
+  .kotak {
+    margin-bottom: 0px;
+  }
+  .tulisan {
+    width: 80%;
+  }
+  .font p .coment {
+    font-size: 0.85rem;
+  }
+  .carousel__item{
+    width: 190px;
+  }
+  .carousel__list{
+    width: 10px;
+    margin-left: 116px;
+  }
+  .tombol{
+    margin-top: 50px;
+    width: 135px;
+    height: 40px;
+  }
+  .carousel__item[data-pos='2']{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .box {
     width: 44.3rem;
   }
+
   .box1 p {
     font-size: large;
     margin-bottom: 70px;
