@@ -236,6 +236,7 @@
   }
   .kotak {
     margin-bottom: 0px;
+    font-size: 60%;
   }
   .tulisan {
     width: 80%;
@@ -258,6 +259,7 @@
   .carousel__item[data-pos='2']{
     display: none;
   }
+
 }
 
 @media screen and (max-width: 396px) {
