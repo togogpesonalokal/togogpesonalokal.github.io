@@ -339,6 +339,9 @@ p.h5{
   .box {
     width: 44.38rem;
   }
+  iframe{
+    width: 170px;
+  }
 
   .box1 p {
     font-size: large;
