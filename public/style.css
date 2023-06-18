@@ -844,6 +844,7 @@ margin-left: 300px;
 
   .navbar2 .navbar2-nav2.active {
       right: 0;
+      margin-right: 190px;
   }
   .navbar2 .navbar2-nav2 a {
       color: var(--bg);
@@ -964,7 +965,10 @@ overflow:hidden;
     margin-top: -200em;
     }
      #hamburger-menu{
-      margin-left: 90px;
+      margin-left: -90px;
+    }
+    svg.feather.feather-menu{
+      margin-right: 120px;
     }
 
 }
