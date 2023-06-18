@@ -1274,6 +1274,7 @@
     padding: 70px 0;
     background-color: #012467;
     height: 830px;
+    margin-top: 130px;
   }
   .footer-page .container .content .logo-wrapper {
     display: flex;
@@ -6283,7 +6284,12 @@
       padding: unset !important;
     }
   }
-  
+
+  .tomboll {
+    width: 210px;
+    height: 60px;
+  }
+
   .nav-footer {
     display: flex;
     flex-direction: column;
@@ -6344,6 +6350,14 @@
     text-align: left;
   }
 }
+@media (min-width : 300px){
+  .footer-page{
+    margin-top:-70px;
+  }
+  .tomboll{
+    margin-top: -110px;
+  }
+}
 @media (min-width : 502px){
     .mapouter{
      margin-left: 230px;
@@ -6351,6 +6365,10 @@
   }
   .footer-page{
     height: 830px;
+    margin-top: 120px;
+  }
+  .tomboll{
+    margin-top: 0px;
   }
   .footer-page .container{
     height: 400px;
@@ -6375,6 +6393,7 @@
 @media (min-width : 1600px){
   .footer-page{
   height: 480px;
+  margin-top: 300px;
 }
 .footer-page .container{
   height: 400px;
