@@ -6340,9 +6340,6 @@
     .maps .mapouter{
       margin-left: 60px;
     }
-    .gambartop{
-      margin-right: 500px;
-    }
   }
 @media (max-width : 1024px){
     .mapouter{
@@ -6361,7 +6358,7 @@
     margin-top: -110px;
   }
 }
-@media (min-width : 502px){
+@media (min-width : 502px) and (max-width: 650px){
     .mapouter{
      margin-left: 230px;
      margin-bottom: 20px;
@@ -6404,4 +6401,28 @@
 .tulisan.mb-5.justify-content-center.align-self-sm-start.align-self-center {
  margin-top: 100px; 
 }
+}
+
+@media (min-width : 651px) and (max-width: 900px){
+  .mapouter{
+   margin-left: 230px;
+   margin-bottom: 20px;
+}
+.footer-page{
+  height: 830px;
+  margin-top: 120px;
+}
+.tomboll{
+  margin-top: 0px;
+}
+.footer-page .container{
+  height: 400px;
+}
+.maps .mapouter{
+  margin-left: 246px;
+}
+.nav-footer{
+  margin-left: -15px;
+}
+
 }
