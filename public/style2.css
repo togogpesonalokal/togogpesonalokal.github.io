@@ -6340,6 +6340,9 @@
     .maps .mapouter{
       margin-left: 60px;
     }
+    .gambartop{
+      margin-right: 500px;
+    }
   }
 @media (max-width : 1024px){
     .mapouter{

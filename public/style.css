@@ -668,7 +668,6 @@ margin-left: 300px;
   margin-left: 150px;
   width: 450px;
 }
-
 .gambarTop .gbr2{
   margin-top: -499px;
   margin-left: 355px;
@@ -780,10 +779,7 @@ margin-left: 300px;
 /* Media Queries */
 
 /* Laptop */
-@media (max-width: 1921px){
-
-}
-@media (min-width: 1366px) {
+@media (min-width: 1366px) and (max-width: 1599px) {
   html {
       font-size: 75%;
   }
@@ -812,8 +808,155 @@ margin-left: 300px;
     .cta2 .cta22{
       margin-left: 860px;
     }
+    .gambarTop{
+      margin-left: -120px;
+      width: 20%;
+      margin-top: 70px;
+    }
+    .gambarTop .gbr1{
+      padding-bottom: 83px;
+    }
+    .hero .content p{
+      width: 410px;
+      margin-bottom: 290px;
+    }
+    .hero .content h1 {
+      margin-top: 160px;
+    }
+    .tomboll{
+      margin-top: -190px;
+    }
+    .footer-page{
+      height: 480px;
+      margin-top: 300px;
+    }
+    .footer-page .container{
+      height: 400px;
+    }
+    /* .gambarTop .gbr1{
+      margin-top: -310px;
+      width: 150%;
+    }
+    .gambarTop .gbr2{
+      width: 150%;
+    }
+    .gambarTop .gbr3{
+      width: 150%;
 
+    } */
 }
+@media (min-width: 1600px) and (max-width: 1899px){
+  html {
+    font-size: 75%;
+}
+  .sction2 .fitur{
+    display: flex;
+    justify-items: center;
+    width: 1300px;
+    /* margin-right: -200px;
+    margin-left: 95px; */
+    /* height: 500px;
+    margin-left: 320px;
+    margin-top: 100px;
+    background-color: #C9DAEC; */
+  }
+  .section2 .value h1{
+    margin-left: -5px;
+  }
+  .fitur span{
+    display: flex;
+    width: auto;
+    margin-left: -40px;
+  }
+  .tulisan-bawah .satu{
+    margin-left: -360px;
+  }
+  .cta2 .cta22{
+    margin-left: 860px;
+  }
+  .gambarTop{
+    margin-left: -120px;
+    width: 20%;
+    margin-top: 70px;
+  }
+  .gambarTop .gbr1{
+    padding-bottom: 0px;
+  }
+  .hero .content p{
+    width: 410px;
+    margin-bottom: 290px;
+  }
+  .hero .content h1 {
+    margin-top: 160px;
+  }
+  .tomboll{
+    margin-top: -190px;
+  }
+  .footer-page{
+    height: 480px;
+    margin-top: 300px;
+  }
+  .footer-page .container{
+    height: 400px;
+  }
+}
+
+@media (min-width: 1900px){
+  html {
+    font-size: 75%;
+}
+  .sction2 .fitur{
+    display: flex;
+    justify-items: center;
+    width: 1300px;
+    /* margin-right: -200px;
+    margin-left: 95px; */
+    /* height: 500px;
+    margin-left: 320px;
+    margin-top: 100px;
+    background-color: #C9DAEC; */
+  }
+  .section2 .value h1{
+    margin-left: -5px;
+  }
+  .fitur span{
+    display: flex;
+    width: auto;
+    margin-left: -40px;
+  }
+  .tulisan-bawah .satu{
+    margin-left: -360px;
+  }
+  .cta2 .cta22{
+    margin-left: 860px;
+  }
+  .gambarTop{
+    margin-left: 90px;
+    width: 20%;
+    margin-top: 70px;
+  }
+  .gambarTop .gbr1{
+    padding-bottom: 0px;
+  }
+  .hero .content p{
+    width: 410px;
+    margin-bottom: 290px;
+  }
+  .hero .content h1 {
+    margin-top: 160px;
+  }
+  .tomboll{
+    margin-top: -190px;
+  }
+  .footer-page{
+    height: 480px;
+    margin-top: 300px;
+  }
+  .footer-page .container{
+    height: 400px;
+  }
+}
+
 /* @media (max-width: 768px){
   #hamburger-menu {
     display: inline-block;

@@ -169,6 +169,9 @@
   transform: translateX(85%) scale(0.8);
   z-index: 3;
 }
+p.h5{
+  font-size: 20px;
+}
 
 @media screen and (min-width: 992px) {
   .font .coment {
@@ -397,6 +400,9 @@
   }
   .carousel__item[data-pos='2']{
     display: none;
+  }
+  iframe{
+    width: 170px;
   }
   .atas.row{
     height: auto;
