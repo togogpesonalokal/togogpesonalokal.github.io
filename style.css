@@ -242,6 +242,10 @@ p.h5{
     width: 1000px;
     height: 380px;
   }
+  .atas .deskrip p{
+    margin-bottom: -100px;
+  }
+
 }
 @media (min-width: 1024px){
   .kotak.d-flex.justify-content-lg-evenly.flex-lg-row.justify-content-sm-center.flex-sm-column.mt-sm-0.flex-column{
@@ -447,5 +451,16 @@ p.h5{
 .bawah p {
   width: 574px;
   padding-top: 50px;
+}
+.box2{
+  width: 800px;
+}
+.fiturfit span{
+  width: 700px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.maps .mapouter{
+  margin-left: 895px;
 }
 }

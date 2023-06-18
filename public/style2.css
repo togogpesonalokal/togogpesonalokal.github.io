@@ -6352,11 +6352,36 @@
 }
 @media (min-width : 300px){
   .footer-page{
-    margin-top:-70px;
+    margin-top: 90px;
   }
   .tomboll{
     margin-top: -110px;
   }
+  .footer-page .container{
+    height: 400px;
+  }
+  .maps .mapouter{
+    margin-left: 95px;
+  }
+  .nav-footer{
+    margin-left: -15px;
+  }
+  .tomboll{
+    margin-top: 0px;
+  }
+}
+@media (min-width : 822px) and (max-width: 990px){
+  .maps .mapouter{
+    margin-left: 255px;
+  }
+  .footer-page{
+    margin-top: 90px;
+  }
+  .nav-footer{
+    margin-top: 20px;
+    margin-left: 6px;
+  }
+
 }
 @media (min-width : 502px) and (max-width: 650px){
     .mapouter{
@@ -6418,8 +6443,9 @@
 .footer-page .container{
   height: 400px;
 }
-.maps .mapouter{
-  margin-left: 246px;
+
+.maps{
+  margin-left: -651px;
 }
 .nav-footer{
   margin-left: -15px;
