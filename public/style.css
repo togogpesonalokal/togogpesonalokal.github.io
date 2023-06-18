@@ -680,7 +680,7 @@ margin-left: 300px;
   display: none;
   width: 100%;
 }
-.gbr5{
+.gbr5, .gbr6{
   display: none;
   width: 100%;
 }
@@ -1053,6 +1053,24 @@ overflow:hidden;
     margin-top: 8px;
     margin-left: 10px;
   }
+  .gbr4{
+    display:inline;
+      width: 320px; 
+      margin-left: 520px;
+      margin-top: -1400px;
+    }
+    .gbr5{
+      display:inline;
+      width: 230px; 
+      margin-left: 560px;
+      margin-top: -900px;
+      }
+      .gbr6{
+        display:inline;
+        width: 130px; 
+        margin-left: 800px;
+        margin-top: -920px;
+        }
 }
 
 /* Handphone */
@@ -1112,6 +1130,10 @@ overflow:hidden;
       margin-left: 210px;
       margin-top: -166.5em;
       }
+      .gbr6{
+        display:none;
+        margin-left: -100px;
+        }
      #hamburger-menu{
       margin-left: -90px;
     }

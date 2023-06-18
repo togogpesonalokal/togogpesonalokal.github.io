@@ -6450,5 +6450,17 @@
 .nav-footer{
   margin-left: -15px;
 }
+.gbr4{
+  display:inline;
+    width: 150px; 
+    margin-left: 40px;
+    margin-top: -64em;
+  }
+  .gbr5{
+    display:inline;
+    width: 150px; 
+    margin-left: 210px;
+    margin-top: -166.5em;
+    }
 
 }
