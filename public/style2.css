@@ -6398,4 +6398,7 @@
 .footer-page .container{
   height: 400px;
 }
+.tulisan.mb-5.justify-content-center.align-self-sm-start.align-self-center {
+ margin-top: 100px; 
+}
 }
