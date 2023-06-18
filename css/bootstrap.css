@@ -10334,6 +10334,9 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
+  .box.d-flex.flex-column.justify-content-center{
+    margin-top: 100px;
+    }
 }
 @media (min-width: 992px) {
   .float-lg-start {
