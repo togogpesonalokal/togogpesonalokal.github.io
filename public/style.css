@@ -1056,7 +1056,7 @@ overflow:hidden;
 }
 
 /* Handphone */
-@media (max-width: 450px) {
+@media (min-width: 360px) and (max-width: 450px) {
   html { 
       font-size: 55%;
   }
@@ -1064,17 +1064,21 @@ overflow:hidden;
     width: 230px;
   }
   .hero .content h1 {
-    margin-top: -150px;
+    margin-top: -100px;
     margin-left: -80px;
+    width: 300px;
+    text-align: center;
     font-size: 3em;
   }
   .hero .content p{
-    margin-top: 0px;
-    margin-right: -100px;
+    margin-top: 50px;
+    width: 250px;
+    text-align: center;
+    margin-left: -50px;
   }
   .cta .cta1{
-    margin-top: 180px;
-    margin-left: -100px;
+    margin-top: 300px;
+    margin-left: -225px;
   }
   .cta2 .cta22{
     margin-left: 136px;
@@ -1096,18 +1100,18 @@ overflow:hidden;
     margin-left: -20px;
   }
 
-.gbr4{
-  display:inline;
-    width: 200px; 
-    margin-left: 60px;
-    margin-top: -200em;
-  }
-  .gbr5{
+  .gbr4{
     display:inline;
-    width: 200px; 
-    margin-left: 40px;
-    margin-top: -200em;
+      width: 150px; 
+      margin-left: 40px;
+      margin-top: -164em;
     }
+    .gbr5{
+      display:inline;
+      width: 150px; 
+      margin-left: 210px;
+      margin-top: -166.5em;
+      }
      #hamburger-menu{
       margin-left: -90px;
     }
@@ -1116,19 +1120,19 @@ overflow:hidden;
     }
 
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .gbr4{
     display:inline;
       width: 150px; 
       margin-left: 40px;
-      margin-top: -160em;
+      margin-top: -140em;
     }
     .gbr5{
       display:inline;
       width: 150px; 
       margin-left: 210px;
-      margin-top: -163em;
-      }
+      margin-top: -142.3em;
+      } 
 }
-
+*/
 
