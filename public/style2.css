@@ -1273,6 +1273,7 @@
   .footer-page {
     padding: 70px 0;
     background-color: #012467;
+    height: 830px;
   }
   .footer-page .container .content .logo-wrapper {
     display: flex;
@@ -6317,7 +6318,6 @@
   margin-left: 5px;
   margin-right: 220px;
 }
-
   @media (min-width : 1200px){
     .nav-footer a {
       text-align: left;
@@ -6372,4 +6372,11 @@
   margin-left: -10px;
 }
 }
-  
+@media (min-width : 1600px){
+  .footer-page{
+  height: 480px;
+}
+.footer-page .container{
+  height: 400px;
+}
+}
