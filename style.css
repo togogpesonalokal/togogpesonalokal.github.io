@@ -230,6 +230,7 @@
     margin-bottom: 0px;
   }
 }
+
 @media (min-width: 576px){
   .kotak.d-flex.justify-content-lg-evenly.flex-lg-row.justify-content-sm-center.flex-sm-column.mt-sm-0.flex-column{
     position: fixed;
@@ -237,6 +238,11 @@
   .box2{
     width: 1000px;
     height: 380px;
+  }
+}
+@media (min-width: 1024px){
+  .kotak.d-flex.justify-content-lg-evenly.flex-lg-row.justify-content-sm-center.flex-sm-column.mt-sm-0.flex-column{
+    position: inherit;
   }
 }
 
