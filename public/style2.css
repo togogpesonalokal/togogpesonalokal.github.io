@@ -6350,10 +6350,16 @@
      margin-bottom: 20px;
   }
   .footer-page{
-    height: 470px;
+    height: 830px;
   }
   .footer-page .container{
     height: 400px;
+  }
+  .maps .mapouter{
+    margin-left: 243px;
+  }
+  .nav-footer{
+    margin-left: -15px;
   }
 }
 @media (max-width : 500px){

@@ -904,6 +904,10 @@ overflow:hidden;
   .navbar2-nav2{
     margin-left: 30px;
   }
+  .fiturfit span{
+    width: 700px;
+    margin-top: 8px;
+  }
 }
 
 /* Handphone */

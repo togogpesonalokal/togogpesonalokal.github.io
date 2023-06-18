@@ -191,6 +191,15 @@
     margin-bottom: 0px;
   }
 }
+@media (min-width: 576px){
+  .kotak.d-flex.justify-content-lg-evenly.flex-lg-row.justify-content-sm-center.flex-sm-column.mt-sm-0.flex-column{
+    position: fixed;
+  }
+  .box2{
+    width: 400px;
+    height: 300px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .box {
@@ -237,9 +246,6 @@
   .kotak {
     margin-bottom: 0px;
     font-size: 60%;
-  }
-  .tulisan {
-    width: 80%;
   }
   .font p .coment {
     font-size: 0.85rem;
