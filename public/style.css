@@ -780,9 +780,6 @@ margin-left: 300px;
 /* Media Queries */
 
 /* Laptop */
-@media (max-width: 1921px){
-
-}
 @media (min-width: 1366px) {
   html {
       font-size: 75%;
@@ -812,7 +809,30 @@ margin-left: 300px;
     .cta2 .cta22{
       margin-left: 860px;
     }
+    .gambarTop{
+      margin-left: -120px;
+      width: 20%;
+      margin-top: 100px;
+    }
+    .hero .content p{
+      width: 510px;
+    }
+    /* .gambarTop .gbr1{
+      margin-top: -310px;
+      width: 150%;
+    }
+    .gambarTop .gbr2{
+      width: 150%;
+    }
+    .gambarTop .gbr3{
+      width: 150%;
 
+    } */
+}
+@media (min-width: 1590){
+  .gambarTop{
+    margin-left: 200px;
+  }
 }
 /* @media (max-width: 768px){
   #hamburger-menu {
