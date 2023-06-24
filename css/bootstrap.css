@@ -12070,5 +12070,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (min-width:300px) and (max-width: 4000px){
+  .navbar2{
+    position: fixed;
+  }
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
